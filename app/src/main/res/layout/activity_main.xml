@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:layout_weight="1"
+        android:id="@+id/frame_main"
+        />
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tab_main"
+        app:tabSelectedTextColor="#F1061A"
+        android:layout_marginTop="800dp"
+        app:tabIndicator="@null"
+        />
+    <ImageView
+        android:layout_marginTop="400dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/teacher"
+        android:id="@+id/contact_teacher"
+        />
+</RelativeLayout>

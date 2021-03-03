@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/choose"
+        android:text="请选择"
+        android:textSize="20sp"
+        android:textColor="#000509"
+        />
+<TextView
+    android:layout_marginTop="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/zhiye_doctor"
+    android:text="执业医师"
+    android:textSize="20sp"
+    app:layout_constraintTop_toBottomOf="@id/choose"
+    />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/zhiye_yaoshi"
+        android:text="执业药师"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/zhiye_doctor"
+        />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jiankang_doctor"
+        android:text="健康管理师"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/zhiye_yaoshi"
+        />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/zhicheng_doctor"
+        android:text="职称药师"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/jiankang_doctor"
+        />
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/china_doctor"
+        android:text="中医(专长)"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/zhicheng_doctor"
+        />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/xueli_tisheng"
+        android:text="学历提升"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/china_doctor"
+        />
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jineng_peixun"
+        android:text="技能培训"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/xueli_tisheng"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
